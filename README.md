@@ -18,4 +18,11 @@ El proyecto fue construido utilizando tecnologías web estándar:
     * Gestión del menú hamburguesa (abrir/cerrar y cambio de ícono).
 * **Font Awesome:** Utilizado para los íconos (ej. el menú hamburguesa `fa-bars` y `fa-times`).
 
-https://joambetancur.github.io/Landing-Page-Growth/
+* 🌐 Despliegue en Vivo
+¡Prueba la funcionalidad del sitio aquí!
+
+[VER EL DASHBOARD EN VIVO]
+
+** https://joambetancur.github.io/Landing-Page-Growth/ **
+
+
