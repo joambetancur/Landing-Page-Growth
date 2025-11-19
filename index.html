@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!--Font-Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-responsive.css" media="(max-width: 768px)">
+    <!-- JavaScript -->
+    <script src="main.js" defer></script>
+    <!-- Page Icon -->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <title>Growth Solutions</title>
+</head>
+
+<body>
+    <!--NavBar-->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/logo.png" alt="Growth Logo">
+                </a>
+            </div>
+
+            <!-- Botón Hamburguesa  -->
+            <button class="hamburger-menu" aria-label="Toggle navigation menu">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <div class="main-menu">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#footer" class="btn">Footer</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--Hero Section-->
+    <section class="hero-section" role="hero-section" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-heading">A powerful solution to grow your startup. Fast!</h1>
+                <p class="hero-text">Organise, collaborate, and track progress seamlessly with our one-stop-shop startup
+                    growth tool.</p>
+                <div class="hero-buttons">
+                    <button class="btn-blue">Get Started</button>
+                    <button class="btn-white"><img src="images/book.svg" alt="icon" aria-hidden="true">Book a
+                        Demo</button>
+                </div>
+            </div>
+        </div>
+        <div class="hero-img"><img src="images/hero-bg.png" alt="background"></div>
+    </section>
+
+    <!-- Video Section -->
+    <section class="video-section" role="video-section" id="video-section">
+        <div class="container2">
+            <div class="heading2">
+                <h2>See how it works and get started
+                    in less than 2 minutes</h2>
+            </div>
+            <div class="img-video">
+                <img src="images/video-preview.png" alt="video">
+            </div>
+            <div class="video-buttons">
+                <button class="btn-blue">Get Started</button>
+            </div>
+        </div>
+    </section>
+    <hr>
+
+    <!-- Testimoials Section -->
+    <section class="testimonials-section" role="testimonials-section" id="testimonials">
+        <div class="container3">
+            <div class="heading3">
+                <h2>Don't just take our word for it, see the success stories from businesses just like yours.</h2>
+            </div>
+            <div class="testimonials">
+                <div class="testimonial">
+                    <p><em>“Our business has seen a significant increase in productivity since we started using the
+                            Growth
+                            app.”</em><br><br><br><strong>Katherine Smith</strong><br>Capodopera</p>
+                </div>
+                <div class="testimonial">
+                    <p><em>“As a small business owner, it's important to have a tool that can help me keep track of
+                            everything. The Growth app has been a lifesaver for me, allowing me to manage my contacts,
+                            schedule appointments, and track progress all in one
+                            place..”</em><br><br><br><strong>Jonathan
+                            Lee</strong><br>Red Bolt</p>
+                </div>
+                <div class="testimonial">
+                    <p><em>“The dashboards and reporting feature has provided valuable insights into our performance and
+                            helped us make data-driven decisions. It's a game changer for
+                            us.”</em><br><strong><br><br><br>David
+                            Wilson</strong><br>Slide</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="pricing-section" role="pricing-section" id="pricing">
+        <div class="container4">
+            <div class="heading4">
+                <h2>Pricing</h2>
+            </div>
+            <div class="paragraph">
+                <p>Start free and scale while you grow. No hidden fees. Unlimited users for free.</p>
+            </div>
+            <div class="pricing-cards">
+                <div class="simple">
+                    <div class="head-simple">
+                        <h3>Simple</h3>
+                        <p>Keep track of your contacts, gain valuable insights, analyse live data and performance
+                            metrics.
+                        </p>
+                    </div>
+                    <div class="body-simple">
+                        <h3>Free</h3>
+                        <ul>
+                            <li>Real-time monitoring</li>
+                            <li>Track key performance indicators</li>
+                            <li>Schedule appointments</li>
+                            <li>Organize, delegate and keep track of tasks</li>
+                        </ul>
+                    </div>
+                    <div class="pricing-buttons">
+                        <button class="btn-blue">Get Started</button>
+                    </div>
+                </div>
+                <div class="premium">
+                    <div class="head-premium">
+                        <h3>Premium</h3>
+                        <p>Keep track of your contacts, gain valuable insights, analyse live data and performance
+                            metrics.</p>
+                    </div>
+                    <div class="body-premium">
+                        <h3>$49 /month</h3>
+                        <p>Everything from the free plan plus:</p>
+                        <ul>
+                            <li>Data-driven decisions</li>
+                            <li>Data visualisation</li>
+                            <li>Schedule appointments</li>
+                            <li>Store and organise contact information</li>
+                            <li>Teal-time communication tools for messaging and video conferencing</li>
+                        </ul>
+                    </div>
+                    <div class="pricing-buttons">
+                        <button class="btn-blue">Get Started</button>
+                    </div>
+                </div>
+            </div>
+            <div class="subfooter">
+                <p>All prices are in USD and charged per month with applicable taxes added at checkout.</p>
+                <p><br><strong><a href="#">View features <img src="images/downarrow.svg" alt="icon"></a></strong>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <section class="footer-section">
+        <div class="container5">
+            <div class="img-logo-white">
+                <a href="index.html">
+                    <img src="images/logo-white.png" alt="Growth Solutions">
+                </a>
+            </div>
+            <div class="flex-footer">
+                <div class="sections-footer">
+                    <h3>Subscribe to newsletter</h3>
+                    <p>Subscribe now to receive tips on how to take your business to the next level.</p>
+                    <div class="button-footer">
+                        <input type="email" placeholder="Enter your email">
+                        <button class="btn-blue" role="button">Subscribe</button>
+                    </div>
+                </div>
+                <div class="company">
+                    <h3>Company</h3>
+                    <ul class="ul">
+                        <li>About</li>
+                        <li>Our Process</li>
+                        <li>Join our team</li>
+                    </ul>
+                </div>
+                <div class="resources">
+                    <h3>Resources</h3>
+                    <ul class="ul">
+                        <li>News</li>
+                        <li>Research</li>
+                        <li>Recent Projects</li>
+                    </ul>
+                </div>
+                <div class="contact">
+                    <h3>Contact</h3>
+                    <p>hello@growthapp.com</p>
+                </div>
+            </div>
+            <div class="footer" id="footer">
+                <img src="images/SocialIcons.svg" alt="Social Icons">
+                <footer>© 2023 Growth. All rights reserved</footer>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
